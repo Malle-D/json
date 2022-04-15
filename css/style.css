@@ -472,6 +472,7 @@ ul{
 .comment__mail-case{
    display: flex;
    flex-direction: column;
+   margin-top: 10px;
 }
 .comment__mail{
    margin-left: auto;
