@@ -45,6 +45,7 @@ postsList.addEventListener("click",async (e) =>{
    
    
    if(e.target.matches(".post")){
+      
       elLoader3.style.display = "block";
       
       let postId = e.target.dataset.postId;
