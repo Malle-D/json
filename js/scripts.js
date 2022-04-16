@@ -21,9 +21,9 @@ userInfo()
 
 userList.addEventListener("click",async (evt) =>{
 
-   elLoader2.style.display = "block";
    
    if(evt.target.matches(".user")){
+      elLoader2.style.display = "block";
       
       let userId = evt.target.dataset.userId;
       
@@ -43,9 +43,9 @@ userList.addEventListener("click",async (evt) =>{
 
 postsList.addEventListener("click",async (e) =>{
    
-   elLoader3.style.display = "block";
-
+   
    if(e.target.matches(".post")){
+      elLoader3.style.display = "block";
       
       let postId = e.target.dataset.postId;
       
